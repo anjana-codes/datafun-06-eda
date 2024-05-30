@@ -6,10 +6,10 @@ Title: Specification for Project 6 EDA Notebook
  May 30,2024	
 
 ## Overview
-Project 6 is an opportunity to create own custom exploratory data analysis (EDA) project using GitHub, Git, Jupyter, pandas, Seaborn and other popular data analytics tools.
+Project 6 is an opportunity to create my own custom exploratory data analysis (EDA) project using GitHub, Git, Jupyter, pandas, Seaborn, and other popular data analytics tools.
 
 ## Objectives
-Perform and publish a custom EDA project to demnostrate skills with Jupyter, pandas, Seaborn and popular tools for data analytics. The notebook should tell a data story and visually present findings in a clear and engaging manner.
+Perform and publish a custom EDA project to demonstrate skills with Jupyter, pandas, Seaborn, and popular tools for data analytics. The notebook should tell a data story and visually present findings in a clear and engaging manner.
 
 ## Create GitHub Repository
 ```
