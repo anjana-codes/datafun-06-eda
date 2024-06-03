@@ -50,6 +50,22 @@ git add .
 git commit -m "start a project"
 git push origin main
 ```
+
+## Data source: car_crashes.csv
+
+This 'car_crashes.csv' dataset from the Seaborn library contains data about car crashes in the United States. It contains eight columns and here is an explanation of the columns in this dataset:
+1. total: total number of car crashes per 100 million miles driven
+2. speeding: proportion of drivers involved in fatal crashes who were speeding (as a percentage)
+3. alcohol: proportion of drivers involved in fatal crashes who were alcohol-impaired (as a percentage)
+4. not_distracted: proportion of drivers involved in fatal crashes who were not distracted (as a percentage).
+5. no_previous: proportion of drivers involved in fatal crashes who were not distracted (as a percentage).
+6. ins_premium: average insurance premium (in USD)
+7. ins_losses: average insurance losses (in USD) per insured driver
+8. abbrev: abbreviation of the U.S. state name
+
+Dataset link: https://github.com/mwaskom/seaborn-data/blob/master/car_crashes.csv
+
+
 ## Source
 This project was built to the following specifications: https://github.com/denisecase/datafun-06-spec
 
