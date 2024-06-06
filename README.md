@@ -3,7 +3,8 @@
 Title: Specification for Project 6 EDA Notebook
 	
  Anjana Dhakal, 
- May 30,2024	
+ May 30,2024
+ updated: June, 5,2024	
 
 ## Overview
 Project 6 is an opportunity to create my own custom exploratory data analysis (EDA) project using GitHub, Git, Jupyter, pandas, Seaborn, and other popular data analytics tools.
@@ -15,6 +16,7 @@ Perform and publish a custom EDA project to demonstrate skills with Jupyter, pan
 ```
  GitHub Repository: datafun-06-eda
  Documentation: README.md
+ Notebook: anjana_eda.ipynb
  
 ```
 
@@ -51,6 +53,15 @@ git commit -m "start a project"
 git push origin main
 ```
 
+##  Import Dependencies
+```
+#importing dependencies
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import numpy as np
+
+```
 ## Data source: car_crashes.csv
 
 This 'car_crashes.csv' dataset from the Seaborn library contains data about car crashes in the United States. It contains eight columns and here is an explanation of the columns in this dataset:
@@ -58,13 +69,28 @@ This 'car_crashes.csv' dataset from the Seaborn library contains data about car 
 2. speeding: proportion of drivers involved in fatal crashes who were speeding (as a percentage)
 3. alcohol: proportion of drivers involved in fatal crashes who were alcohol-impaired (as a percentage)
 4. not_distracted: proportion of drivers involved in fatal crashes who were not distracted (as a percentage).
-5. no_previous: proportion of drivers involved in fatal crashes who were not distracted (as a percentage).
-6. ins_premium: average insurance premium (in USD)
-7. ins_losses: average insurance losses (in USD) per insured driver
+5. no_previous: proportion of drivers involved in fatal crashes with no previous incidents  (as a percentage).
+6. ins_premium: average insurance premium in the state
+7. ins_losses: average insurance losses in the sate per insured driver
 8. abbrev: abbreviation of the U.S. state name
 
 Dataset link: https://github.com/mwaskom/seaborn-data/blob/master/car_crashes.csv
 
+## Exploratory Data Analysis
+1. Data Acquisition
+2. Initial Data Inspection
+3. Initial Descriptive Statistics
+4. Initial Data Distribution for Numerical Columns
+5. Initial Data Distribution for Categorical Columns
+6. Initial Data Transformation and Feature Engineering
+7. Initial Visualizations
+
+## Repeat git add and commit
+```
+git add .
+git commit -m "project is done"
+git push origin main
+```
 
 ## Source
 This project was built to the following specifications: https://github.com/denisecase/datafun-06-spec
